@@ -17,7 +17,7 @@ import {
   getProductsForSeller,
   deleteProduct,
   updateProduct,
-} from "../../api/ProductApi";
+} from "../../api/Productapi";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
