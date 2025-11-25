@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
 import { getAllProducts } from "../../api/ProductApi";
 import { addToCart as addToCartAPI } from "../../api/cartApi";
-import { getBuyerOrders, deleteOrderByBuyer } from "../../api/OrderApis";
+import { getBuyerOrders, deleteOrderByBuyer } from "../../api/Orderapis";
 import { AuthContext } from "../../context/AuthContext";
 import BuyNowModal from "../../component/Buyer/BuyNowModal";
 import { ToastContainer, toast } from "react-toastify";
