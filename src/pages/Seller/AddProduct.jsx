@@ -18,7 +18,7 @@ import {
 } from "@mui/material";
 import { motion } from "framer-motion";
 import CloudUploadIcon from "@mui/icons-material/CloudUpload";
-import { createProduct } from "../../api/ProductApi";
+import { createProduct } from "../../api/Productapi";
 
 const AddProductMerged = () => {
   const [form, setForm] = useState({
