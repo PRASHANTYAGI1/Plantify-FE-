@@ -10,7 +10,7 @@ import {
   Divider,
   Chip,
 } from "@mui/material";
-import { getSellerOrders } from "../../api/OrderApis";
+import { getSellerOrders } from "../../api/Orderapis";
 import { toast } from "react-toastify";
 
 const SellerOrders = () => {
