@@ -13,7 +13,7 @@ import {
   getCartApi,
   removeFromCartApi,
   updateCartItemQuantityApi,
-} from "../../api/cartapi";
+} from "../../api/cartApi";
 import { AuthContext } from "../../context/AuthContext";
 
 const CartPage = () => {
