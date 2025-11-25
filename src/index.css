@@ -1,0 +1,54 @@
+@import "tailwindcss";
+.toast {
+  @apply mb-4 px-4 py-2 rounded-lg text-center font-semibold shadow-md transition-all duration-300;
+  width: 100%;
+}
+
+.toast.success {
+  @apply bg-green-500 text-white;
+}
+
+.toast.error {
+  @apply bg-red-500 text-white;
+}
+
+/* Optional: fade in/out animation */
+@keyframes toast-in {
+  0% { opacity: 0; transform: translateY(-10px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes toast-out {
+  0% { opacity: 1; transform: translateY(0); }
+  100% { opacity: 0; transform: translateY(-10px); }
+}
+
+.toast.animate-in {
+  animation: toast-in 0.3s ease forwards;
+}
+
+.toast.animate-out {
+  animation: toast-out 0.3s ease forwards;
+}
+
+
+/* Hide default scrollbar */
+.flex::-webkit-scrollbar {
+  height: 6px; /* horizontal scrollbar height */
+}
+
+.flex::-webkit-scrollbar-thumb {
+  background-color: #4caf50; /* green thumb */
+  border-radius: 3px;
+}
+
+.flex::-webkit-scrollbar-track {
+  background-color: #f0f5f0; /* track color */
+  border-radius: 3px;
+}
+
+/* For Firefox */
+.flex {
+  scrollbar-width: thin;
+  scrollbar-color: #4caf50 #f0f5f0;
+}
