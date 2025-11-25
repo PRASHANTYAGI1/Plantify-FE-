@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // ✅ Base URL for order-related endpoints
-const BASE_URL = "http://localhost:5000/api/v1/orders";
+const BASE_URL = "https://plantify-backend.onrender.com/api/v1/orders";
 
 // ✅ Create Axios instance for orders
 const axiosInstance = axios.create({
