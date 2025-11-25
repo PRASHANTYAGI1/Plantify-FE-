@@ -5,7 +5,7 @@ import {
   getUserProfile,
   updateUserProfile,
   uploadProfileImage,
-} from "../api/userApi";
+} from "../api/userapi";
 import { FaUserCircle, FaBars, FaTimes } from "react-icons/fa";
 import toast, { Toaster } from "react-hot-toast";
 import { motion, AnimatePresence } from "framer-motion";
