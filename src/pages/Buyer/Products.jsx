@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
-import { getAllProducts } from "../../api/ProductApi";
-import { addToCart as addToCartAPI } from "../../api/cartApi";
+import { getAllProducts } from "../../api/Productapi";
+import { addToCart as addToCartAPI } from "../../api/cartapi";
 import { getBuyerOrders, deleteOrderByBuyer } from "../../api/Orderapis";
 import { AuthContext } from "../../context/AuthContext";
 import BuyNowModal from "../../component/Buyer/BuyNowModal";
