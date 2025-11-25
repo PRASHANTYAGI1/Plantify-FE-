@@ -12,7 +12,7 @@ export const detectDisease = async (plantImage, token) => {
     formData.append("plantImage", plantImage);
 
     const res = await axios.post(
-      "http://localhost:5000/api/v1/ml/detect-disease",
+      "https://plantify-backend.onrender.com/api/v1/ml/detect-disease",
       formData,
       {
         headers: {
