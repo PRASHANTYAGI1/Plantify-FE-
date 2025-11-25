@@ -55,7 +55,7 @@ export default function Login() {
     try {
       setLoading(true);
       const res = await axios.post(
-        "http://localhost:5000/api/v1/users/forgot-password",
+        "https://plantify-backend.onrender.com/api/v1/users/forgot-password",
         { email },
         { headers: { "Content-Type": "application/json" } }
       );
@@ -80,7 +80,7 @@ export default function Login() {
     try {
       setLoading(true);
       await axios.put(
-        `http://localhost:5000/api/v1/users/reset-password/${token}`,
+        `https://plantify-backend.onrender.com/api/v1/users/reset-password/${token}`,
         { password, confirmPassword },
         {
           headers: {
