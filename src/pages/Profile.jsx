@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { AuthContext } from "../context/AuthContext";
-import { updateUserProfile, uploadProfileImage } from "../api/userApi";
+import { updateUserProfile, uploadProfileImage } from "../api/userapi";
 
 export default function Profile() {
   const { user, setUser } = useContext(AuthContext);
