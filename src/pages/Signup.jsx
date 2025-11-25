@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { registerUser } from "../api/userApi";
+import { registerUser } from "../api/userapi";
 import { useNavigate } from "react-router-dom";
 import {
   Box,
