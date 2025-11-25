@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { placeOrder as placeOrderAPI } from "../../api/Orderapis";
+import { placeOrder as placeOrderAPI } from "./../api/OrderApis";
 
 const BuyNowModal = ({ product, onClose, user }) => {
   const [shippingAddress, setShippingAddress] = useState("");
