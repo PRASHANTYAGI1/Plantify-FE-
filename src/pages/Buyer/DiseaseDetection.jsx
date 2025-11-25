@@ -9,7 +9,7 @@ import DetectionSection from "../../component/Disease/DetectionSection";
 import RemediesSection from "../../component/Disease/RemediesSection";
 import EndingSection from "../../component/Disease/EndingSection";
 
-import { detectDisease } from "../../api/mlApis";
+import { detectDisease } from "../../api/MlApis";
 
 const PotatoDiseaseLandingPage = () => {
   const { user, loading: authLoading } = useContext(AuthContext);
